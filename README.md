@@ -18,6 +18,12 @@ javac -cp Lib/AbsoluteLayout.;Lib/codec.jar *.java
 ```
 java -cp .;Lib/AbsoluteLayout.;Lib/codec.jar exe
 ```
+## Uso
+Para agregar un nuevo usuario se debe de utilizar una cuenta de administrador
+```
+Administrador: Administrador
+Password: password
+```
 
 ## Construido con 
 
