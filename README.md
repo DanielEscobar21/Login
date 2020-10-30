@@ -12,11 +12,11 @@ _Este programa utiliza para el cifrado de las contrase√±as el metodo AES, tambi√
 2. Para compilar el programa con Librerias desde CMD utilizar este comando desues de estar en la carpeta de las clases y haber corrido la maquina virtual de Java en la terminal
 
 ```
-javac -cp Lib/AbsoluteLayout.;Lib/codec.jar *.java
+javac -cp Lib/AbsoluteLayout.jar.;Lib/codec.jar *.java
 ```
 3. Para ejecutar el programa 
 ```
-java -cp .;Lib/AbsoluteLayout.;Lib/codec.jar exe
+java -cp .;Lib/AbsoluteLayout.jar.;Lib/codec.jar exe
 ```
 ## Uso
 Para agregar un nuevo usuario se debe de utilizar una cuenta de administrador
