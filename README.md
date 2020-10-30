@@ -7,19 +7,16 @@ _Este proyecto consiste en un sencillo y básico Login para poder acceder a cual
 _Este programa utiliza para el cifrado de las contraseñas el metodo AES, también conocido como Rijndael (pronunciado "Rain Doll" en inglés), es un esquema de cifrado por bloques que tiene un tamaño de bloque fijo de 128 bits y tamaños de llave de 128, 192 o 256 bits._
 
 
-### Pre-requisitos 
+### Ejecución 
+1. Ingresar a la carpeta donde se encuentra el programa
+2. Para compilar el programa con Librerias desde CMD utilizar este comando desues de estar en la carpeta de las clases y haber corrido la maquina virtual de Java en la terminal
 
-_Para la ejecución de este programa es necesario dos Librerias, la libreria nativa de Java "Absolute Layout.jar" y la libreria de ["Commons codec-1.15" ](https://commons.apache.org/proper/commons-codec/download_codec.cgi)._
-
-
-
-Para compilar el programa con Librerias desde CMD utilizar este comando desues de estar en la carpeta de las clases y haber corrido la maquina virtual de JAva en la terminal
 ```
-javac -cp "ruta de Libreria" *.java
+javac -cp Lib/AbsoluteLayout.;Lib/codec.jar *.java
 ```
-Para ejecutar el progrma 
+3. Para ejecutar el programa 
 ```
-java -cp "ruta de Libreria" *.class
+java -cp .;Lib/AbsoluteLayout.;Lib/codec.jar exe
 ```
 
 ## Construido con 
@@ -33,7 +30,7 @@ java -cp "ruta de Libreria" *.class
 
 
 ## Version
-Version 2.4 LoginMVC
+Version 2.7 Login
 
 ## Autor 
 * **Daniel Escobar Araujo** [DanielEscobar21](https://github.com/DanielEscobar21)
